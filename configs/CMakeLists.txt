@@ -361,7 +361,6 @@ endif()
 if( VIAME_ENABLE_PYTORCH-NETHARN )
   set( CORE_PIPELINE_FILES ${CORE_PIPELINE_FILES}
     pipelines/train_netharn_cascade.viame_csv.conf
-    pipelines/train_netharn_cascade_motion.viame_csv.conf
     pipelines/train_netharn_resnet.viame_csv.conf )
 endif()
 
