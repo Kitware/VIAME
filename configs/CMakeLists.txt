@@ -250,7 +250,6 @@ set( CORE_PIPELINE_FILES
   pipelines/train_split_and_stereo_aug.pipe
   pipelines/train_split_aug.pipe
   pipelines/train_warp_ir_to_eo_aug.pipe
-  pipelines/utility_add_head_tail_keypoints.pipe
   pipelines/utility_add_segmentations_watershed.pipe
   pipelines/utility_empty_frame_lbls_1fr.pipe
   pipelines/utility_empty_frame_lbls_10fr.pipe
